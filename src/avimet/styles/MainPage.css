@@ -1,0 +1,186 @@
+
+:root {
+    --rwy-bg-inactive: #b5b5b5;
+    --rwy-bg-active: #717171;
+    --rwy-bg-closed: #d61900;
+    --rwy-name-inactive: #dadada;
+    --rwy-name-opposite-active: #333333;
+    --rwy-name-active: #000;
+    --rwy-name-closed: #dadada;
+    --windmeter-bg-inactive: #dadada;
+    --windmeter-bg-active: #fff;
+    --windmeter-value-color: #b5b5b5;
+    --windmeter-value-highlight: #333333;
+    --windmeter-font-highlight: "verdana-pro", sans-serif;
+    --windmeter-arrow-color: #000;
+    --windmeter-base-color: #333;
+    --arr-color: #ff9601;
+    --dep-color: #009ac8;
+    --rcc-background: #ececec;
+    --rcc-text: #000;
+    --rcc-stroke-color: #dadada;
+}
+
+.dark {
+    --rwy-bg-inactive: #152437;
+    --rwy-bg-active: #4b4b4b;
+    --rwy-bg-closed: #9d1200;
+    --rwy-name-inactive: #394551;
+    --rwy-name-opposite-active: #2d2d2d;
+    --rwy-name-active: #ccc;
+    --rwy-name-closed: #ccc;
+    --windmeter-bg-inactive: #0c2740;
+    --windmeter-bg-active: #000000;
+    --windmeter-value-color: #717171;
+    --windmeter-value-highlight: #ccc;
+    --windmeter-font-highlight: "verdana-pro", sans-serif;
+    --windmeter-arrow-color: #ccc;
+    --windmeter-base-color: #1e1e1e;
+    --arr-color: #bf6f00;
+    --dep-color: #0570BD;
+    --rcc-background: #000;
+    --rcc-text: #ccc;
+    --rcc-stroke-color: #1e1e1e;
+}
+
+.main-svg {
+    position: fixed;
+    max-width: 860px;
+    width: calc(100% - 85px);
+    max-height: calc(100% - 120px);
+    font-family: var(--font-avimet);
+}
+
+.runway-bg {
+    fill: var(--rwy-bg-inactive);
+}
+
+.runway-name {
+    fill: var(--rwy-name-inactive);
+    font-size: 48px;
+}
+
+.windmeter-base {
+    fill: var(--windmeter-base-color);
+}
+
+.windmeter-bg {
+    fill: var(--windmeter-bg-inactive);
+}
+
+.windmeter-small-values {
+    font-size: 35px;
+    fill: var(--windmeter-value-color);
+}
+
+.windmeter-large-values {
+    font-size: 52px;
+    fill: var(--windmeter-value-color);
+    font-family: var(--font-avimet);
+}
+
+.windmeter-large-values:nth-of-type(even) {
+    text-anchor: end;
+}
+
+.text-right {
+    text-anchor: end; 
+}
+
+.arrow-arrival {
+    fill: var(--arr-color);
+    stroke: #000;
+    stroke-width: 2px;
+    stroke-miterlimit: 1;
+}
+
+.arrow-departure {
+    fill: var(--dep-color);
+    stroke: #000;
+    stroke-width: 2px;
+    stroke-miterlimit: 1;
+}
+
+.rcc-background {
+    fill: var(--rcc-background);
+    stroke: var(--rcc-stroke-color);
+    stroke-width: 3px;
+}
+
+.rcc-neutral {
+    fill: var(--rcc-text); 
+}
+
+.rcc-value {
+    font-size: 32px;
+    fill: var(--rcc-text);
+}
+
+.rcc-downgraded {
+    fill: #0470bd;
+}
+
+.rcc-upgraded {
+    fill: #d61a00;
+}
+
+.rvr-value {
+    fill: #dadada;
+    font-size: 32px;
+    text-anchor: middle;
+}
+
+.svg-no-data {
+    fill: #ff0000;
+    text-anchor: middle;
+}
+
+.info-window-border {
+    fill: none;
+    stroke: #333;
+    stroke-width: 2px;
+}
+
+.info-window-text {
+    font-family: var(--font-avimet);
+    font-size: 36px;
+    fill: var(--top-menu-text);
+}
+
+.warnings-window-text {
+    fill: var(--rwy-bg-closed);
+    font-size: 28px;
+}
+
+.wind-arrow {
+    transform-box: fill-box;
+    transform-origin: center;
+}
+
+.efhk-atis-window {
+    position: fixed;
+    background-color: var(--bg-pattern-color);
+    left: 86px;
+    right: 0;
+    top: 40px;
+    bottom: 80px;
+    font-family: var(--font-avimet);
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.efhk-atis-content {
+    text-align: left;
+    padding: 4px;
+    background-color: var(--windmeter-bg-active);
+    color: var(--top-menu-text);
+    font-size: 1rem;
+    margin: 10px 4px;
+    margin-bottom: 0;
+    height: calc(100% - 50px);
+    overflow-y: scroll;
+}
+
+.avimet-windmeter-highlight {
+    fill: black;
+}

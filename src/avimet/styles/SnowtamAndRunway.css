@@ -1,0 +1,125 @@
+
+:root {
+    --snowtam-div-border: #000;
+}
+
+.dark {
+    --snowtam-div-border: #8b8b8b;
+}
+
+.snowtam-border-div {
+    color: var(--top-menu-text);
+    border: 1px solid var(--snowtam-div-border);
+    font-size: 0.9rem;
+    padding: 0px 4px 4px;
+    margin-bottom: 10px;
+}
+
+.snowtam-border-div h1 {
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.snowtam-border-div p {
+    margin: 4px 0px 0px;
+    font-size: 0.9rem;
+}
+
+.snowtam-border-div pre {
+    margin: 4px 0px 0px;
+    font-size: 0.9rem;
+    font-family: var(--avimet-font);
+}
+
+.taxiway-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    padding: 0;
+    border-bottom: 1px solid var(--snowtam-div-border);
+    border-right: 1px solid var(--snowtam-div-border);
+}
+
+.taxiway-box {
+    color: red;
+    font-weight: bold;
+    border-top: 1px solid var(--snowtam-div-border);
+    border-left: 1px solid var(--snowtam-div-border);
+    padding: 10px 6px;
+    text-align: left;
+}
+
+/* RUNWAY PAGE STYLES */
+
+.rwy-report-columns {
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+}
+
+.rwy-report-column-left {
+    flex: 1;
+    margin-right: 4px;
+    max-width: 360px;
+}
+
+.rwy-report-column-right {
+    flex: 1.5;
+    margin-left: 4px;
+}
+
+@media (max-width: 750px) {
+    .rwy-report-columns { flex-direction: column; }
+    .rwy-report-column-left { margin: 0; max-width: 100%; }
+    .rwy-report-column-right { margin: 0; }
+}
+
+.rwy-report-text-table {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0 0;
+}
+
+.rwy-text-pt {
+    padding-top: 10px;
+}
+
+.rwysvg-container {
+    max-width: 260px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.rwysvg-border {
+    fill: none;
+    stroke: #f5a623;
+    stroke-width: 5px;
+}
+
+.rwysvg-centerline {
+    fill: #fff;
+}
+
+.rwysvg-lights {
+    fill: #f5a623;
+}
+
+.rwysvg-rcc {
+    font-family: var(--avimet-font);
+    font-weight: bold;
+    fill: #fff;
+    font-size: 80pt;
+}
+
+.rwysvg-container p {
+    margin: 0;
+    margin-bottom: 4px;
+    color: var(--top-menu-text);
+}
+
+.rwysvg-contaminant {
+    font-size: 0.7rem;
+    margin-top: -4px !important;
+    margin-bottom: 8px !important;
+}

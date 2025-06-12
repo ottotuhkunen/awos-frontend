@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187.387 187.387">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3164bc;
+      }
+
+      .cls-2 {
+        fill: #0e1c2e;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-4 {
+        stroke: #1e3c72;
+      }
+
+      .cls-2, .cls-4, .cls-5 {
+        stroke-width: .5px;
+      }
+
+      .cls-7 {
+        fill: #444b53;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #acb6c0;
+      }
+
+      .cls-3, .cls-6 {
+        stroke-width: .75px;
+      }
+
+      .cls-8, .cls-4 {
+        fill: #0a141e;
+      }
+
+      .cls-9, .cls-10, .cls-11, .cls-12, .cls-13 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-9, .cls-11 {
+        fill: #c8d1dc;
+        font-size: 9px;
+      }
+
+      .cls-10 {
+        fill: #464646;
+        font-size: 13px;
+      }
+
+      .cls-11 {
+        letter-spacing: -.018em;
+      }
+
+      .cls-5 {
+        fill: #28323c;
+        stroke: #384353;
+      }
+
+      .cls-12 {
+        font-size: 14px;
+      }
+
+      .cls-12, .cls-13 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        fill: #ff0;
+        stroke: #000;
+      }
+
+      .cls-13 {
+        font-size: 22px;
+      }
+    </style>
+  </defs>
+  <rect id="base" class="cls-8" width="187.387" height="187.387"/>
+  <rect id="runway" class="cls-7" x="79.542" y=".705" width="26.762" height="185.563"/>
+  <rect id="maxbase" class="cls-5" x="156.844" y=".43" width="30.117" height="26.189"/>
+  <rect id="mnmbase" class="cls-5" x="156.847" y="160.744" width="30.117" height="26.189"/>
+  <rect id="twbase" class="cls-5" x=".385" y="160.768" width="22.397" height="26.189"/>
+  <rect id="xwbase" class="cls-5" x="22.782" y="160.768" width="22.397" height="26.189"/>
+  <line class="cls-3" x1="92.923" y1="37.749" x2="92.923" y2="31.567"/>
+  <line class="cls-3" x1="65.137" y1="45.567" x2="62.046" y2="40.213"/>
+  <line class="cls-3" x1="44.998" y1="66.024" x2="39.643" y2="62.933"/>
+  <line class="cls-3" x1="37.732" y1="93.694" x2="31.549" y2="93.694"/>
+  <line class="cls-3" x1="45.032" y1="121.344" x2="39.678" y2="124.435"/>
+  <line class="cls-3" x1="65.13" y1="141.834" x2="62.038" y2="147.188"/>
+  <line class="cls-3" x1="92.923" y1="149.666" x2="92.923" y2="155.849"/>
+  <line class="cls-3" x1="121.102" y1="142.501" x2="124.193" y2="147.855"/>
+  <line class="cls-3" x1="141.941" y1="121.994" x2="147.295" y2="125.085"/>
+  <line class="cls-3" x1="149.647" y1="93.694" x2="155.829" y2="93.694"/>
+  <line class="cls-3" x1="141.908" y1="65.412" x2="147.262" y2="62.321"/>
+  <line class="cls-3" x1="121.106" y1="44.879" x2="124.197" y2="39.525"/>
+  <line class="cls-3" x1="83.222" y1="38.678" x2="82.735" y2="35.915"/>
+  <line class="cls-3" x1="73.865" y1="41.331" x2="72.905" y2="38.695"/>
+  <line class="cls-3" x1="57.274" y1="51.208" x2="55.47" y2="49.059"/>
+  <line class="cls-3" x1="50.48" y1="58.079" x2="48.33" y2="56.276"/>
+  <line class="cls-3" x1="40.997" y1="74.794" x2="38.361" y2="73.835"/>
+  <line class="cls-3" x1="38.534" y1="84.103" x2="35.771" y2="83.616"/>
+  <line class="cls-3" x1="38.515" y1="103.287" x2="35.752" y2="103.774"/>
+  <line class="cls-3" x1="41.017" y1="112.586" x2="38.38" y2="113.546"/>
+  <line class="cls-3" x1="50.48" y1="129.308" x2="48.33" y2="131.111"/>
+  <line class="cls-3" x1="57.257" y1="136.199" x2="55.453" y2="138.348"/>
+  <line class="cls-3" x1="73.849" y1="146.099" x2="72.889" y2="148.736"/>
+  <line class="cls-3" x1="83.223" y1="148.705" x2="82.736" y2="151.467"/>
+  <line class="cls-3" x1="102.656" y1="148.89" x2="103.143" y2="151.653"/>
+  <line class="cls-3" x1="112.144" y1="146.502" x2="113.103" y2="149.138"/>
+  <line class="cls-3" x1="129.22" y1="136.951" x2="131.023" y2="139.1"/>
+  <line class="cls-3" x1="136.236" y1="130.038" x2="138.385" y2="131.841"/>
+  <line class="cls-3" x1="146.231" y1="113.096" x2="148.867" y2="114.056"/>
+  <line class="cls-3" x1="148.81" y1="103.548" x2="151.573" y2="104.035"/>
+  <line class="cls-3" x1="148.805" y1="83.84" x2="151.568" y2="83.353"/>
+  <line class="cls-3" x1="146.199" y1="74.303" x2="148.836" y2="73.343"/>
+  <line class="cls-3" x1="136.257" y1="57.332" x2="138.406" y2="55.529"/>
+  <line class="cls-3" x1="129.24" y1="50.413" x2="131.043" y2="48.264"/>
+  <line class="cls-3" x1="112.16" y1="40.842" x2="113.119" y2="38.205"/>
+  <line class="cls-3" x1="102.668" y1="38.429" x2="103.155" y2="35.666"/>
+  <circle id="centerbase" class="cls-2" cx="93.694" cy="93.694" r="55.732"/>
+  <circle id="degreeCircle" class="cls-1" cx="93.633" cy="93.739" r="55.535"/>
+  <circle id="innerbase" class="cls-4" cx="93.694" cy="93.694" r="48.962"/>
+  <text class="cls-9" transform="translate(85.953 25.92)"><tspan x="0" y="0">360</tspan></text>
+  <text class="cls-9" transform="translate(121.791 35.86)"><tspan x="0" y="0">030</tspan></text>
+  <text class="cls-9" transform="translate(162.151 7.834)"><tspan x="0" y="0">MAX</tspan></text>
+  <text class="cls-9" transform="translate(161.657 168.12)"><tspan x="0" y="0">NMN</tspan></text>
+  <text class="cls-11" transform="translate(8.834 168.144)"><tspan x="0" y="0">T</tspan></text>
+  <text class="cls-9" transform="translate(30.979 168.144)"><tspan x="0" y="0">X</tspan></text>
+  <text class="cls-9" transform="translate(147.417 61.938)"><tspan x="0" y="0">060</tspan></text>
+  <text class="cls-9" transform="translate(156.993 97.235)"><tspan x="0" y="0">090</tspan></text>
+  <text class="cls-9" transform="translate(147.417 132.229)"><tspan x="0" y="0">120</tspan></text>
+  <text class="cls-9" transform="translate(121.79 158.677)"><tspan x="0" y="0">150</tspan></text>
+  <text class="cls-9" transform="translate(85.953 168.508)"><tspan x="0" y="0">180</tspan></text>
+  <text class="cls-9" transform="translate(50.703 158.677)"><tspan x="0" y="0">210</tspan></text>
+  <text class="cls-9" transform="translate(24.364 132.229)"><tspan x="0" y="0">240</tspan></text>
+  <text class="cls-9" transform="translate(14.499 97.235)"><tspan x="0" y="0">270</tspan></text>
+  <text class="cls-9" transform="translate(24.364 61.35)"><tspan x="0" y="0">300</tspan></text>
+  <text class="cls-9" transform="translate(49.89 35.86)"><tspan x="0" y="0">330</tspan></text>
+  <text id="maxwind" class="cls-12" transform="translate(164.116 22.988)"><tspan x="0" y="0">12</tspan></text>
+  <text id="mnmwind" class="cls-12" transform="translate(164.119 183.613)"><tspan x="0" y="0">04</tspan></text>
+  <text id="tailwind" class="cls-12" transform="translate(4.264 183.637)"><tspan x="0" y="0">06</tspan></text>
+  <text id="crosswind" class="cls-12" transform="translate(26.194 183.637)"><tspan x="0" y="0">01</tspan></text>
+  <text id="direction" class="cls-13" transform="translate(70.709 78.99)"><tspan x="0" y="0">200°</tspan></text>
+  <text id="speed" class="cls-13" transform="translate(69.613 125.758)"><tspan x="0" y="0">06 kt</tspan></text>
+  <text id="speed-2" data-name="speed" class="cls-10" transform="translate(65.995 99.825)"><tspan x="0" y="0">180 - 230</tspan></text>
+  <polygon class="cls-6" points="87.553 31.203 92.98 52.817 98.293 31.203 92.98 36.297 87.553 31.203"/>
+</svg>

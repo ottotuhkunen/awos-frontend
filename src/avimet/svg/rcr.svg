@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="layer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 632.772 381.37">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #f5a623;
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        font-family: Verdana, Verdana;
+        font-size: 100px;
+      }
+
+      .cls-4 {
+        fill: #f5a623;
+      }
+    </style>
+  </defs>
+  <rect y="5.095" width="632.772" height="372.812"/>
+  <line class="cls-1" y1="5.095" x2="632.772" y2="5.095"/>
+  <line class="cls-1" y1="377.907" x2="632.772" y2="377.907"/>
+  <circle class="cls-4" cx="27.658" cy="45.715" r="12.069"/>
+  <circle class="cls-4" cx="27.658" cy="94.31" r="12.069"/>
+  <circle class="cls-4" cx="27.658" cy="142.906" r="12.069"/>
+  <circle class="cls-4" cx="27.658" cy="191.501" r="12.069"/>
+  <circle class="cls-4" cx="27.658" cy="240.097" r="12.069"/>
+  <circle class="cls-4" cx="27.658" cy="288.692" r="12.069"/>
+  <circle class="cls-4" cx="27.658" cy="337.288" r="12.069"/>
+  <circle class="cls-4" cx="603.71" cy="47.212" r="12.069"/>
+  <circle class="cls-4" cx="603.71" cy="95.808" r="12.069"/>
+  <circle class="cls-4" cx="603.71" cy="144.403" r="12.069"/>
+  <circle class="cls-4" cx="603.71" cy="192.999" r="12.069"/>
+  <circle class="cls-4" cx="603.71" cy="241.594" r="12.069"/>
+  <circle class="cls-4" cx="603.71" cy="290.19" r="12.069"/>
+  <circle class="cls-4" cx="603.71" cy="338.785" r="12.069"/>
+  <rect class="cls-2" x="306.996" y="28.735" width="18.78" height="53.186"/>
+  <rect class="cls-2" x="306.996" y="120.515" width="18.78" height="53.186"/>
+  <rect class="cls-2" x="306.996" y="212.296" width="18.78" height="53.186"/>
+  <rect class="cls-2" x="306.996" y="304.076" width="18.78" height="53.186"/>
+  <text class="cls-3" transform="translate(205.215 229.526)"><tspan x="0" y="0">5</tspan></text>
+</svg>

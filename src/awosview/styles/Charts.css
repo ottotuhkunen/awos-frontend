@@ -1,0 +1,177 @@
+:root {
+    --awosview-chart-bg: transparent;
+    --awosview-ceilometer-bg: #f5fffa;
+    --awosview-legend-bg: #fff;
+    --awosview-legend-text: #545454;
+    --awosview-ceilometer-active-button: linear-gradient(to bottom, #58aee7 0%, #1d84ce 100%);
+    --awosview-ceilometer-inactive-button: linear-gradient(to bottom, #afd3eb 0%, #87afcd 100%);
+    --awosview-ceilometer-dot: #000;
+}
+
+.dark {
+    --awosview-chart-bg: #102030;
+    --awosview-ceilometer-bg: #102030;
+    --awosview-legend-bg: rgb(70, 80, 90);
+    --awosview-legend-text: #fff;
+    --awosview-ceilometer-active-button: #788caa;
+    --awosview-ceilometer-inactive-button: #46505a;
+    --awosview-ceilometer-dot: #fff;
+}
+
+.charts-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px 4px;
+  background-color: var(--awosview-body-bg);
+  height: calc(100% - 22px);
+  overflow: scroll;
+}
+
+.chart-box {
+  width: 100%;
+  max-width: 32%;
+  padding: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: var(--awosview-modal-border);
+  height: calc(50% - 6px);
+  position: relative;
+  background-color: var(--awosview-chart-bg);
+}
+
+.chart-title {
+  font-size: 0.7rem;
+  margin: 0 8px;
+  margin-top: 4px;
+  font-family: var(--awosview-font-bold);
+  font-weight: bold;
+  color: var(--awosview-text-color);
+}
+
+.chart-container {
+  height: calc(100% - 18px);
+}
+
+/* Responsive stacking on small screens */
+@media (max-width: 768px) {
+  .chart-box {
+    max-width: 100%;
+  }
+}
+
+.chart-legend {
+    position: absolute; 
+    top: 30px; 
+    left: 24px; 
+    background-color: var(--awosview-legend-bg); 
+    opacity: 0.9;
+    font-size: 0.7rem;
+    font-weight: bold;
+    box-shadow: inset 0px 10px 10px -9px rgba(36, 36, 36, 0.8);
+    color: var(--awosview-legend-text);
+    padding: 2px;
+    padding-bottom: 0px;
+}
+
+.chart-legend-color {
+    width: 14px;
+    height: 10px;
+    margin-right: 4px;
+    border: 1px solid gray;
+}
+
+.chart-box:nth-of-type(1) .chart-legend{
+    left: 34px;
+}
+
+
+.chart-box:nth-of-type(3) .chart-legend {
+    left: 48px;
+}
+
+.ceilometer-page-container {
+  gap: 2px;
+  padding: 4px 4px;
+  background-color: var(--awosview-body-bg);
+  height: calc(100%);
+  overflow: scroll;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+.ceilometer-button-group {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+}
+
+.ceilometer-button-group button {
+  background: var(--awosview-ceilometer-inactive-button);
+  box-shadow: 1px 1px 2px rgba(0,0,0,1);
+  border: none;
+  color: white;
+  border: none;
+  width: 36px;
+  height: 30px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.ceilometer-button-group button.active {
+  background: var(--awosview-ceilometer-active-button);
+  cursor: default;
+}
+
+.ceilometer-button-group p {
+  width: 40px;
+  line-height: 1;
+  margin: 0;
+  font-size: 0.7rem;
+  color: var(--awosview-text-color);
+}
+
+.awosview-ceilometer-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+  width: 100%;
+  height: calc(100% - 60px);
+}
+
+.awosview-ceilometer-chart {
+  flex: 1 1 0;
+  min-width: 300px;
+  position: relative;
+  background-color: var(--awosview-ceilometer-bg);
+  border: var(--awosview-modal-border);
+  border-radius: 4px;
+}
+
+/* Stack vertically on small screens */
+@media only screen and (max-device-width: 768px) {
+  .awosview-ceilometer-container {
+    flex-direction: column;
+  }
+}
+
+.ceilometer-titles {
+  display: flex;
+  width: 100%;
+}
+
+
+.ceilometer-titles p {
+  text-align: left;
+  margin: 0;
+  margin-left: 4px;
+  font-weight: bold;
+  font-size: 0.8rem;
+  flex: 1;
+}
+

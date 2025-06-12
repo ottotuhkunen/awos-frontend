@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'monospace-light';
+  font-display: block;
+  src: url('./RobotoMono-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'monospace-normal';
+  font-display: block;
+  src: url('./RobotoMono-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'avimet-verdana';
+  font-display: block;
+  src: url('./Verdana.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'avimet-verdana-mono';
+  font-display: block;
+  src: url('./VeraMono.ttf') format('truetype');
+}

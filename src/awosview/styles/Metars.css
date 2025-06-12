@@ -1,0 +1,88 @@
+:root {
+    --awosview-metars-buttons-bg: linear-gradient(to bottom, #afd3eb 0%, #86aecc 100%);
+    --awosview-metars-table-bg: #f0f0f5;
+    --awosview-metars-table-th-bg: #e7eeee;
+    --awosview-metars-table-border: 1px solid #fff;
+}
+
+.dark {
+    --awosview-metars-buttons-bg: #b8d4ea;
+    --awosview-metars-table-bg: #14202f;
+    --awosview-metars-table-th-bg: #23303f;
+    --awosview-metars-table-border: 1px solid #33404f;
+}
+
+.awosview-metars-container {
+  font-family: var(--awosview-font-monospace);
+  background-color: var(--awosview-body-bg);
+  color: var(--awosview-text-color);
+  padding: 10px;
+  font-size: 0.8rem;
+  height: calc(100% - 20px);
+  overflow: scroll;
+}
+
+.awosview-pagination-controls {
+  margin-bottom: 8px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.awosview-pagination-controls button {
+  background: var(--awosview-metars-buttons-bg);
+  box-shadow: 0 0 6px rgba(0,0,0,0.6);
+  border: 1px outset #ccc !important;
+  border: none;
+  width: 36px;
+  height: 30px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.awosview-pagination-controls img {
+    width: 24px;
+}
+
+
+.awosview-pagination-controls span {
+  font-size: 0.9;
+  margin: 4px;
+  background-color: white;
+  color: black;
+  font-family: var(--awosview-font);
+  border: 1px solid #ccc;
+  width: 36px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.awosview-metars-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.awosview-metars-table th {
+    background-color: var(--awosview-metars-table-th-bg);
+    padding: 8px;
+    border: var(--awosview-metars-table-border);
+    font-family: var(--awosview-font-bold);
+}
+
+.awosview-metars-table td {
+    padding: 2px 4px;
+    border: var(--awosview-metars-table-border);
+    background-color: var(--awosview-metars-table-bg);
+}
+
+.awosview-metars-table tbody tr:hover {
+    filter: brightness(0.9);
+}
+
+.awosview-metars-table td.awosview-sent-cell {
+  min-width: 160px;
+}

@@ -1,0 +1,393 @@
+:root {
+    --awosview-font: 'awosview-default';
+    --awosview-font-bold: 'awosview-bold';
+    --awosview-font-monospace: 'monospace-normal';
+    --awosview-body-bg: #d0dfe9;
+    --awosview-values-bg: #EBEFF1;
+    --awosview-meter-name-bg: gray;
+    --awosview-mode-toggle-bg: linear-gradient(to bottom, rgba(163,200,224,1) 0%, rgba(86,160,204,1) 100%);
+    --awosview-mode-toggle-bg-selected:linear-gradient(to bottom, rgba(93,178,234,1) 0%,rgba(26,130,204,1) 100%);
+    --awosview-svg-rwy-bg: #878889;
+    --awosview-rvr-bg: #fff;
+    --awosview-windmeter-bg: #fff;
+    --wind-dir-area-normal: #3e63b7;
+    --awosview-windmeter-rwy: #cdd8e5;
+    --awosview-vrb-bg: #ebeff7;
+    --awosview-windmeter-labels: #878889;
+    --awosview-windmeter-boxes-bg: #ecf0f9;
+    --awosview-windmeter-boxes-border: #cdd8e5;
+    --awosview-windmeter-boxes-highlight: rgba(255,200,80,1);
+    --awosview-windmeter-vrb-text-normal: #c0c0c0;
+    --awosview-mode-toggle-border: #eee;
+    --compass-bg: #d0dfe9;
+    --awosview-svg-arrow: #fdf8cb;
+}
+
+.dark {
+    --awosview-font-monospace: 'monospace-light';
+    --awosview-body-bg: #203040;
+    --awosview-values-bg: #102030;
+    --awosview-meter-name-bg: #203050;
+    --awosview-mode-toggle-bg: #14283C;
+    --awosview-mode-toggle-bg-selected: #3C5078;
+    --awosview-svg-rwy-bg: #162437;
+    --awosview-rvr-bg: #102030;
+    --awosview-windmeter-bg: #0a141e;
+    --wind-dir-area-normal: #3164bc;
+    --awosview-windmeter-rwy: #444b53;
+    --awosview-vrb-bg: #111c2d;
+    --awosview-windmeter-labels: #c8d1dc;
+    --awosview-windmeter-boxes-bg: #28323c;
+    --awosview-windmeter-boxes-border: #384353;
+    --awosview-windmeter-boxes-highlight: rgba(140,90,10,1);
+    --awosview-windmeter-vrb-text-normal: #464646;
+    --awosview-mode-toggle-border: #405060;
+    --compass-bg: #354555;
+    --awosview-svg-arrow: #BDC1C9;
+}
+
+.awosview-body {
+    font-family: var(--awosview-font);
+    background-color: var(--awosview-body-bg);
+    height: 100%;
+    width: 100%;
+}
+
+.awosview-compass {
+    position: absolute;
+    top: 26px;
+    right: 36px;
+    width: 42px;
+    height: 110px;
+    color: #305090;
+    border: 0.5px solid #777;
+    border-radius: 6px;
+    background: var(--compass-bg);
+    cursor: pointer;
+}
+
+@media (min-width: 980px) {
+    .awosview-compass {
+        position: fixed;
+        right: -40px;
+    }
+}
+
+.awosview-ceilometer {
+    font-family: var(--awosview-font-bold);
+    color: var(--awosview-text-color);
+    position: absolute;
+    padding: 0;
+    border: 1px solid #777;
+    border-radius: 3px 3px 3px 3px;
+    background: var(--awosview-values-bg);
+    z-index: 1000;
+    display: inline-block;
+    width: 170px;
+    min-height: 30px;
+    top: 200px;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.active-meter {
+    box-shadow: inset 12px 0 0 0 #90c0f0;
+    padding-left: 12px;
+}
+
+.text-gray {
+    color: gray;
+    font-size: 0.9rem !important;
+    padding-right: 4px !important;
+}
+
+.text-meter-gray {
+    color: gray;
+}
+
+.awosview-ceilometer div {
+    margin: 0;
+    padding: 0;
+    flex: 1;
+
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    padding-left: 4px;
+    overflow: hidden;
+}
+
+.wx-vis-separator {
+    border-bottom: 1px solid gray;
+    max-height: 0;
+
+}
+
+.awosview-ceilometer p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.4rem;
+}
+
+.awosview-ceilometer.weather {
+    width: 260px;
+    height: 72px;
+}
+
+.awosview-meter-name {
+    font-family: var(--awosview-font-bold);
+    position: absolute;
+    color: white;
+    font-size: 0.65rem;
+    text-shadow: 0px 0px 2px black;
+    padding: 2px 2px 0px 2px;
+    margin-left: -2px;
+    top: -16px;
+    left: 2px;
+    height: 13px;
+    background-color: var(--awosview-meter-name-bg);
+    opacity: 0.8;
+    border-radius: 2px;
+}
+
+.awosview-mode-toggle-button {
+    font-family: var(--awosview-font-bold);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-top: 1px solid #eee;
+    border-left: 1px solid #eee;
+    border-color: var(--awosview-mode-toggle-border);
+    box-shadow: 1px 1px 1px 0px #000;
+    position: absolute;
+    margin-top: -36px;
+    height: 32px;
+    width: 56px;
+    right: 0px;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    background: var(--awosview-mode-toggle-bg);
+    cursor: not-allowed !important;
+    
+}
+
+.awosview-mode-toggle-button:first-of-type {
+    right: 58px;
+    background: var(--awosview-mode-toggle-bg-selected);
+    cursor: pointer !important;
+}
+
+.scalable-wrapper {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.scalable-content {
+    position: relative;
+    transform-origin: top left;
+    width: 1150px;
+    height: 716px;
+}
+
+/* Main SVG */
+
+.awos-svg-bg {
+    fill: var(--awosview-svg-rwy-bg);
+    opacity: 0.9;
+}
+
+.awos-svg-twy {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    fill: var(--awosview-text-color);
+}
+
+.awos-svg-twy-double {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9.4px;
+    fill: var(--awosview-text-color);
+}
+
+.awos-svg-arrow {
+    fill: var(--awosview-svg-arrow);
+}
+
+.awos-svg-rwy-name {
+    fill: #d0d0d0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.awos-svg-twy-circle {
+    fill: none;
+    stroke: var(--awosview-text-color);
+    stroke-miterlimit: 10;
+    stroke-width: .5px;
+}
+
+.awosview-svg-container {
+    position: absolute;
+    width: 800px;
+    left: 140px;
+    top: 230px;
+    transform: rotate(var(--rotate-deg));
+}
+
+.counter-rotate {
+    transform: rotate(calc(-1 * var(--rotate-deg)));
+    transform-origin: center;
+    display: inline-block;
+}
+
+.awosview-rvr-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 72px;
+    top: 40%;
+    gap: 8px;
+}
+
+.awosview-rvr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 134px;
+    height: 44px;
+    opacity: 0.5;
+    border-radius: 4px;
+    background: var(--awosview-rvr-bg);
+    color: var(--awosview-text-color);
+    font-family: var(--awosview-font-bold);
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.awosview-rvr-container:not(:has(.awosview-rvr:nth-child(3))) {
+    gap: 140px; /* larger gap when only 2 rvr meters */
+}
+
+.awosview-rvr-container:not(:has(.awosview-rvr:nth-child(2))) {
+    margin-left: 140px;
+}
+
+.rvr-highlight {
+    opacity: 1 !important;
+}
+
+/* Windmeter SVG */
+
+.awosview-windmeter-container {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 120px;
+    top: 60px;
+    border: solid 1px #777;
+    border-radius: 2px;
+    background-color: var(--awosview-windmeter-bg);
+    font-family: var(--awosview-font-bold);
+}
+
+.wind-direction-area { fill: var(--wind-dir-area-normal); }
+
+.windmeter-rwy { fill: var(--awosview-windmeter-rwy); }
+
+.windmeter-ticks {
+    fill: none;
+    stroke: #acb6c0;
+    stroke-width: .75px;
+}
+
+.windmeter-side-values {
+    fill: var(--awosview-windmeter-boxes-bg);
+    stroke: var(--awosview-windmeter-boxes-border);
+}
+
+.windmeter-center-bg {
+    fill: var(--awosview-windmeter-bg);
+    stroke: #1e3c72;
+    stroke-width: .5px;
+}
+
+.windmeter-vrb-bg {
+    fill: var(--awosview-vrb-bg);
+    stroke: #1e3c72;
+    stroke-width: .5px;
+}
+
+.windmeter-labels {
+    fill: var(--awosview-windmeter-labels);
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.windmeter-side-values-text {
+    font-size: 14px;
+    fill: var(--awosview-text-color);
+}
+
+.windmeter-arrow {
+    stroke-width: .75px;
+    fill: #ff0;
+    stroke: #000;
+}
+
+.windmeter-big-values-text {
+    font-size: 22px;
+    fill: var(--awosview-text-color);
+}
+
+.windmeter-vrb-text {
+    fill: var(--awosview-windmeter-vrb-text-normal);
+    font-size: 13px;
+}
+
+.wind-dir-area-highlight {
+    fill: #de8200;
+}
+
+.windmeter-vrb-between-highlight {
+    fill: var(--awosview-text-color) !important;
+}
+
+.windmeter-calm-hihglight {
+    fill: var(--awosview-text-color) !important;
+    font-size: 1.2rem;
+}
+
+.windmeter-boxes-highlight {
+    fill: var(--awosview-windmeter-boxes-highlight);
+}
+
+.awosview-twr-location {
+    position: absolute;
+    height: 26px;
+    width: auto;
+    opacity: 0.6;
+}
+
+.awos-weather-no-data {
+    background-color: var(--no-data-bg-color);
+    visibility: hidden !important;
+}
+  
+.awos-weather-no-data::after {
+    position: absolute;
+    content: '//';
+    visibility: visible !important;
+    color: var(--no-data-text-color);
+    background-color: var(--no-data-bg-color);
+    font-size: 1.4rem;
+    padding: 0 2px;
+}

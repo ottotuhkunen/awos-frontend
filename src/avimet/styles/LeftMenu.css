@@ -1,0 +1,68 @@
+.left-menu {
+    display: flex;
+    flex-direction: column;
+    width: 85px;
+    padding: 1px;
+    box-sizing: border-box;
+    gap: 6px;
+}
+
+.left-menu__button {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    background: var(--left-menu-button-inactive-bg);
+    color: var(--left-menu-text);
+    font-size: 0.6rem;
+    font-family: var(--font-avimet);
+    text-align: center;
+    cursor: pointer;
+    border: var(--left-menu-button-border);
+    border-radius: 6px;
+    padding: 0;
+    height: 62px;
+    width: 66px;
+}
+
+.left-menu__button:nth-of-type(5) {
+    /* MET SNOWTAM button */
+    justify-content: center;
+}
+
+.left-menu__button:nth-of-type(6) {
+    /* MET REPORT button */
+    height: 44px;
+    margin-bottom: 16px;
+    overflow: visible;
+    font-size: 0.5rem;
+}
+
+.left-menu__button::after {
+    /* Button arrows */
+    content: '';
+    position: absolute;
+    right: -16px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-style: solid;
+    border-width: 12px 0 12px 12px;
+    border-color: transparent;
+    transition: transform 0.2s;
+}
+
+.left-menu__button.selected {
+    background: var(--left-menu-button-bg);
+}
+
+.left-menu__button.selected::after {
+    border-color: var(--left-menu-triangle-color);
+}
+
+.left-menu img {
+    max-width: 66px;
+    max-height: 60px;
+    object-fit: contain;
+}

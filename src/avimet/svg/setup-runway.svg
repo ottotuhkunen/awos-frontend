@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="runwaySelection" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 276.968 40.14">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-family: ArialMT, Arial;
+        font-size: 12px;
+        isolation: isolate;
+      }
+
+      .cls-1, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #b5b5b5;
+      }
+
+      .cls-5 {
+        letter-spacing: -.018em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.037em;
+      }
+    </style>
+  </defs>
+  <g id="background">
+    <path class="cls-4" d="M5.147,4.834v16h267V4.834H5.147ZM22.147,19.834H6.147v-2h16v2ZM22.147,15.834H6.147v-2h16v2ZM22.147,11.834H6.147v-2h16v2Z"/>
+    <rect class="cls-3" x="6.147" y="5.834" width="16" height="2"/>
+    <rect class="cls-3" x="6.147" y="9.834" width="16" height="2"/>
+    <rect class="cls-3" x="6.147" y="13.834" width="16" height="2"/>
+    <rect class="cls-3" x="6.147" y="17.834" width="16" height="2"/>
+    <rect class="cls-3" x="255.147" y="5.834" width="16" height="2"/>
+    <rect class="cls-3" x="255.147" y="9.834" width="16" height="2"/>
+    <rect class="cls-3" x="255.147" y="13.834" width="16" height="2"/>
+    <rect class="cls-3" x="255.147" y="17.834" width="16" height="2"/>
+  </g>
+  <g id="staticText">
+    <text id="_04L-rwyTitle" data-name="04L-rwyTitle" class="cls-1" transform="translate(25.146 17.034)"><tspan x="0" y="0">04</tspan><tspan class="cls-6" x="13.348" y="0">L</tspan></text>
+    <text id="_22R-rwyTitle" data-name="22R-rwyTitle" class="cls-1" transform="translate(229.942 17.103)"><tspan x="0" y="0">22R</tspan></text>
+  </g>
+  <g id="textLayer">
+    <text id="_22r_status" data-name="22r_status" class="cls-2" transform="translate(202.692 36.074)"><tspan x="0" y="0">NO</tspan><tspan class="cls-5" x="18" y="0">T</tspan><tspan x="25.113" y="0" xml:space="preserve"> IN USE</tspan></text>
+    <text id="_04l_status" data-name="04l_status" class="cls-2" transform="translate(5.427 36.074)"><tspan x="0" y="0">NO</tspan><tspan class="cls-5" x="18" y="0">T</tspan><tspan x="25.113" y="0" xml:space="preserve"> IN USE</tspan></text>
+  </g>
+</svg>

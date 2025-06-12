@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1853.793 1289.179">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #b5b5b5;
+      }
+
+      .cls-4 {
+        font-size: 32px;
+      }
+
+      .cls-4, .cls-5, .cls-2, .cls-6, .cls-7, .cls-3 {
+        font-family: Verdana, Verdana;
+      }
+
+      .cls-4, .cls-7, .cls-8 {
+        fill: #dadada;
+      }
+
+      .cls-5 {
+        font-size: 34px;
+      }
+
+      .cls-9 {
+        fill: #0470bd;
+      }
+
+      .cls-2 {
+        font-size: 52px;
+      }
+
+      .cls-6 {
+        font-size: 40px;
+      }
+
+      .cls-10 {
+        fill: #ececec;
+        stroke: #dadada;
+        stroke-width: 3px;
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-13 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-7 {
+        font-size: 48px;
+      }
+
+      .cls-3 {
+        font-size: 35px;
+      }
+
+      .cls-14 {
+        fill: #d61a00;
+      }
+
+      .cls-11 {
+        fill: none;
+        stroke: #333;
+        stroke-width: 2px;
+      }
+
+      .cls-12 {
+        fill: #009ac8;
+      }
+
+      .cls-12, .cls-13 {
+        stroke: #000;
+        stroke-width: 1.5px;
+      }
+
+      .cls-13 {
+        fill: #ff9601;
+      }
+
+      .cls-15 {
+        fill: #333;
+      }
+    </style>
+  </defs>
+  <g id="runways">
+    <rect id="_04L" data-name="04L" class="cls-1" x="369.568" y="212.232" width="114.813" height="696.213" transform="translate(461.631 -143.285) rotate(40.127)"/>
+    <rect id="_04R" data-name="04R" class="cls-1" x="894.5" y="212.232" width="114.813" height="696.213" transform="translate(585.19 -481.594) rotate(40.127)"/>
+    <rect id="_15" data-name="15" class="cls-1" x="1052.861" y="211.598" width="114.813" height="696.213" transform="translate(2351.511 487.066) rotate(149.897)"/>
+    <text id="rwy-name-04R" class="cls-7" transform="translate(701.295 784.402) rotate(40.127)"><tspan x="0" y="0">04R</tspan></text>
+    <text id="rwy-name-04L" class="cls-7" transform="translate(177.257 786.222) rotate(40.127)"><tspan x="0" y="0">04L</tspan></text>
+    <text id="rwy-name-22R" class="cls-7" transform="translate(678.511 336.468) rotate(-139.873)"><tspan x="0" y="0">22R</tspan></text>
+    <text id="rwy-name-22L" class="cls-7" transform="translate(1201.463 334.626) rotate(-139.873)"><tspan x="0" y="0">22L</tspan></text>
+    <text id="rwy-name-33" class="cls-7" transform="translate(1251.277 863.846) rotate(-30.103)"><tspan x="0" y="0">33</tspan></text>
+    <text id="rwy-name-15" class="cls-7" transform="translate(970.491 255.453) rotate(149.897)"><tspan x="0" y="0">15</tspan></text>
+  </g>
+  <g id="windmeter-04L">
+    <rect id="base" class="cls-15" x="305.339" y="860.637" width="264.975" height="182.947"/>
+    <rect id="background-2" data-name="background" class="cls-8" x="349.353" y="822.623" width="176.947" height="258.975" rx="6" ry="6" transform="translate(1389.937 514.284) rotate(90)"/>
+    <text id="variable-between" class="cls-3" transform="translate(317.195 907.73)"><tspan x="0" y="0">210-270</tspan></text>
+    <text id="tailwind-crosswind" class="cls-3" transform="translate(319.959 1022.28)"><tspan x="0" y="0">T12 X6</tspan></text>
+    <text id="direction" class="cls-2" transform="translate(319.96 971.532)"><tspan x="0" y="0">250</tspan></text>
+    <text id="speed" class="cls-2" transform="translate(490.817 971.533)"><tspan x="0" y="0">13</tspan></text>
+    <text id="max-speed" class="cls-3" transform="translate(508.545 907.73)"><tspan x="0" y="0">19</tspan></text>
+    <text id="min-speed" class="cls-3" transform="translate(528.495 1022.806)"><tspan x="0" y="0">6</tspan></text>
+    <path id="windarrow" d="M123.28,1015.022h16.019c.837,0,1.515-.678,1.515-1.515v-110.239c0-.837.678-1.515,1.515-1.515h40.789c.837,0,1.515.678,1.515,1.515v110.239c0,.837.678,1.515,1.515,1.515h16.019c1.269,0,1.976,1.467,1.185,2.46l-39.444,49.484c-.607.761-1.763.761-2.37,0l-39.444-49.484c-.791-.993-.084-2.46,1.185-2.46Z"/>
+  </g>
+  <g id="windmeter-04R">
+    <rect id="base-2" data-name="base" class="cls-15" x="849.845" y="860.637" width="264.975" height="182.947"/>
+    <rect id="background-3" data-name="background" class="cls-8" x="893.86" y="822.623" width="176.947" height="258.975" rx="6" ry="6" transform="translate(1934.444 -30.223) rotate(90)"/>
+    <text id="variable-between-2" data-name="variable-between" class="cls-3" transform="translate(861.701 907.73)"><tspan x="0" y="0">210-270</tspan></text>
+    <text id="tailwind-crosswind-2" data-name="tailwind-crosswind" class="cls-3" transform="translate(864.466 1022.28)"><tspan x="0" y="0">T12 X6</tspan></text>
+    <text id="direction-2" data-name="direction" class="cls-2" transform="translate(864.466 971.532)"><tspan x="0" y="0">250</tspan></text>
+    <text id="speed-2" data-name="speed" class="cls-2" transform="translate(1035.324 971.533)"><tspan x="0" y="0">13</tspan></text>
+    <text id="max-speed-2" data-name="max-speed" class="cls-3" transform="translate(1053.052 907.73)"><tspan x="0" y="0">19</tspan></text>
+    <text id="min-speed-2" data-name="min-speed" class="cls-3" transform="translate(1073.002 1022.806)"><tspan x="0" y="0">6</tspan></text>
+    <path id="windarrow-2" data-name="windarrow" d="M693.358,1015.022h16.019c.837,0,1.515-.678,1.515-1.515v-110.239c0-.837.678-1.515,1.515-1.515h40.789c.837,0,1.515.678,1.515,1.515v110.239c0,.837.678,1.515,1.515,1.515h16.019c1.269,0,1.976,1.467,1.185,2.46l-39.444,49.484c-.607.761-1.763.761-2.37,0l-39.444-49.484c-.791-.993-.084-2.46,1.185-2.46Z"/>
+  </g>
+  <g id="windmeter-33">
+    <rect id="base-3" data-name="base" class="cls-15" x="1577.621" y="646.401" width="264.975" height="182.947"/>
+    <rect id="background-4" data-name="background" class="cls-8" x="1621.635" y="608.387" width="176.947" height="258.975" rx="6" ry="6" transform="translate(2447.983 -972.234) rotate(90)"/>
+    <text id="variable-between-3" data-name="variable-between" class="cls-3" transform="translate(1589.476 693.494)"><tspan x="0" y="0">210-270</tspan></text>
+    <text id="tailwind-crosswind-3" data-name="tailwind-crosswind" class="cls-3" transform="translate(1592.241 808.044)"><tspan x="0" y="0">T12 X6</tspan></text>
+    <text id="direction-3" data-name="direction" class="cls-2" transform="translate(1592.241 757.296)"><tspan x="0" y="0">250</tspan></text>
+    <text id="speed-3" data-name="speed" class="cls-2" transform="translate(1763.099 757.296)"><tspan x="0" y="0">13</tspan></text>
+    <text id="max-speed-3" data-name="max-speed" class="cls-3" transform="translate(1780.827 693.494)"><tspan x="0" y="0">19</tspan></text>
+    <text id="min-speed-3" data-name="min-speed" class="cls-3" transform="translate(1800.777 808.569)"><tspan x="0" y="0">6</tspan></text>
+    <path id="windarrow-3" data-name="windarrow" d="M1420.531,780.794h16.019c.837,0,1.515-.678,1.515-1.515v-110.239c0-.837.678-1.515,1.515-1.515h40.789c.837,0,1.515.678,1.515,1.515v110.239c0,.837.678,1.515,1.515,1.515h16.019c1.269,0,1.976,1.467,1.185,2.46l-39.444,49.484c-.607.761-1.763.761-2.37,0l-39.444-49.484c-.791-.993-.084-2.46,1.185-2.46Z"/>
+  </g>
+  <g id="windmeter-22L">
+    <rect id="base-4" data-name="base" class="cls-15" x="1449.269" y="192.614" width="264.975" height="182.947"/>
+    <rect id="background-5" data-name="background" class="cls-8" x="1493.283" y="154.6" width="176.947" height="258.975" rx="6" ry="6" transform="translate(1865.844 -1297.67) rotate(90)"/>
+    <text id="variable-between-4" data-name="variable-between" class="cls-3" transform="translate(1461.125 239.707)"><tspan x="0" y="0">210-270</tspan></text>
+    <text id="tailwind-crosswind-4" data-name="tailwind-crosswind" class="cls-3" transform="translate(1463.889 354.257)"><tspan x="0" y="0">T12 X6</tspan></text>
+    <text id="direction-4" data-name="direction" class="cls-2" transform="translate(1463.889 303.509)"><tspan x="0" y="0">250</tspan></text>
+    <text id="speed-4" data-name="speed" class="cls-2" transform="translate(1634.747 303.509)"><tspan x="0" y="0">13</tspan></text>
+    <text id="max-speed-4" data-name="max-speed" class="cls-3" transform="translate(1652.475 239.707)"><tspan x="0" y="0">19</tspan></text>
+    <text id="min-speed-4" data-name="min-speed" class="cls-3" transform="translate(1672.425 354.782)"><tspan x="0" y="0">6</tspan></text>
+    <path id="windarrow-4" data-name="windarrow" d="M1296.765,303.243h16.019c.837,0,1.515-.678,1.515-1.515v-110.239c0-.837.678-1.515,1.515-1.515h40.789c.837,0,1.515.678,1.515,1.515v110.239c0,.837.678,1.515,1.515,1.515h16.019c1.269,0,1.976,1.467,1.185,2.46l-39.444,49.484c-.607.761-1.763.761-2.37,0l-39.444-49.484c-.791-.993-.084-2.46,1.185-2.46Z"/>
+  </g>
+  <g id="windmeter-15">
+    <rect id="base-5" data-name="base" class="cls-15" x="890.92" y="7.314" width="264.975" height="182.947"/>
+    <rect id="background-6" data-name="background" class="cls-8" x="934.934" y="-30.7" width="176.947" height="258.975" rx="6" ry="6" transform="translate(1122.195 -924.621) rotate(90)"/>
+    <text id="variable-between-5" data-name="variable-between" class="cls-3" transform="translate(902.776 54.407)"><tspan x="0" y="0">210-270</tspan></text>
+    <text id="tailwind-crosswind-5" data-name="tailwind-crosswind" class="cls-3" transform="translate(905.541 168.957)"><tspan x="0" y="0">T12 X6</tspan></text>
+    <text id="direction-5" data-name="direction" class="cls-2" transform="translate(905.541 118.209)"><tspan x="0" y="0">250</tspan></text>
+    <text id="speed-5" data-name="speed" class="cls-2" transform="translate(1076.399 118.21)"><tspan x="0" y="0">13</tspan></text>
+    <text id="max-speed-5" data-name="max-speed" class="cls-3" transform="translate(1094.127 54.407)"><tspan x="0" y="0">19</tspan></text>
+    <text id="min-speed-5" data-name="min-speed" class="cls-3" transform="translate(1114.077 169.483)"><tspan x="0" y="0">6</tspan></text>
+    <path id="windarrow-5" data-name="windarrow" d="M755.241,213.124h16.019c.837,0,1.515-.678,1.515-1.515v-110.239c0-.837.678-1.515,1.515-1.515h40.789c.837,0,1.515.678,1.515,1.515v110.239c0,.837.678,1.515,1.515,1.515h16.019c1.269,0,1.976,1.467,1.185,2.46l-39.444,49.484c-.607.761-1.763.761-2.37,0l-39.444-49.484c-.791-.993-.084-2.46,1.185-2.46Z"/>
+  </g>
+  <g id="windmeter-22R">
+    <rect id="base-6" data-name="base" class="cls-15" x="305.177" y="7.662" width="264.975" height="182.947"/>
+    <rect id="background-7" data-name="background" class="cls-8" x="349.191" y="-30.352" width="176.947" height="258.975" rx="6" ry="6" transform="translate(536.8 -338.529) rotate(90)"/>
+    <text id="variable-between-6" data-name="variable-between" class="cls-3" transform="translate(317.032 54.756)"><tspan x="0" y="0">210-270</tspan></text>
+    <text id="tailwind-crosswind-6" data-name="tailwind-crosswind" class="cls-3" transform="translate(319.797 169.306)"><tspan x="0" y="0">T12 X6</tspan></text>
+    <text id="direction-6" data-name="direction" class="cls-2" transform="translate(319.797 118.557)"><tspan x="0" y="0">250</tspan></text>
+    <text id="speed-6" data-name="speed" class="cls-2" transform="translate(490.655 118.558)"><tspan x="0" y="0">13</tspan></text>
+    <text id="max-speed-6" data-name="max-speed" class="cls-3" transform="translate(508.383 54.756)"><tspan x="0" y="0">19</tspan></text>
+    <text id="min-speed-6" data-name="min-speed" class="cls-3" transform="translate(528.333 169.831)"><tspan x="0" y="0">6</tspan></text>
+    <path id="windarrow-6" data-name="windarrow" d="M347.929,324.979h16.019c.837,0,1.515-.678,1.515-1.515v-110.239c0-.837.678-1.515,1.515-1.515h40.789c.837,0,1.515.678,1.515,1.515v110.239c0,.837.678,1.515,1.515,1.515h16.019c1.269,0,1.976,1.467,1.185,2.46l-39.444,49.484c-.607.761-1.763.761-2.37,0l-39.444-49.484c-.791-.993-.084-2.46,1.185-2.46Z"/>
+  </g>
+  <g id="arrows-22L">
+    <polygon id="arrival" class="cls-13" points="1165.427 232.245 1239.071 294.318 1181.907 287.416 1165.427 232.245"/>
+    <polygon id="departure" class="cls-12" points="1092.618 318.936 1166.262 381.009 1109.098 374.107 1092.618 318.936"/>
+  </g>
+  <g id="arrows-22R">
+    <polygon id="arrival-2" data-name="arrival" class="cls-13" points="641.067 230.821 714.711 292.893 657.547 285.991 641.067 230.821"/>
+    <polygon id="departure-2" data-name="departure" class="cls-12" points="568.258 317.511 641.902 379.584 584.738 372.682 568.258 317.511"/>
+  </g>
+  <g id="arrows-04L">
+    <polygon id="arrival-3" data-name="arrival" class="cls-13" points="212.938 888.919 139.294 826.846 196.458 833.749 212.938 888.919"/>
+    <polygon id="arrival-4" data-name="arrival" class="cls-12" points="285.747 802.228 212.104 740.156 269.268 747.058 285.747 802.228"/>
+  </g>
+  <g id="arrows-04R">
+    <polygon id="arrival-5" data-name="arrival" class="cls-13" points="737.777 889.245 664.134 827.172 721.298 834.074 737.777 889.245"/>
+    <polygon id="arrival-6" data-name="arrival" class="cls-12" points="810.586 802.554 736.943 740.481 794.107 747.383 810.586 802.554"/>
+  </g>
+  <g id="arrows-15">
+    <polygon id="arrival-7" data-name="arrival" class="cls-13" points="874.661 248.831 957.985 200.524 932.154 251.984 874.661 248.831"/>
+    <polygon id="arrival-8" data-name="arrival" class="cls-12" points="931.614 346.671 1014.938 298.365 989.107 349.824 931.614 346.671"/>
+  </g>
+  <g id="arrows-33">
+    <polygon id="arrival-9" data-name="arrival" class="cls-13" points="1347.794 874.868 1264.469 923.175 1290.301 871.715 1347.794 874.868"/>
+    <polygon id="arrival-10" data-name="arrival" class="cls-12" points="1290.84 777.028 1207.516 825.334 1233.348 773.875 1290.84 777.028"/>
+  </g>
+  <g id="rcc-04L">
+    <g id="first-part">
+      <rect id="background-8" data-name="background" class="cls-10" x="397.148" y="709.703" width="101.413" height="41.094"/>
+      <text id="value-1" class="cls-5" transform="translate(427.658 742.76)"><tspan x="0" y="0">6</tspan></text>
+      <polygon id="downgraded" class="cls-9" points="486.401 734.671 476.041 742.56 465.691 734.671 470.81 734.671 470.81 721.85 481.282 721.85 481.282 734.671 486.401 734.671"/>
+      <polygon id="upgraded" class="cls-14" points="465.691 725.455 476.051 717.566 486.401 725.455 481.282 725.455 481.282 738.276 470.81 738.276 470.81 725.455 465.691 725.455"/>
+      <circle id="neutral" cx="478.842" cy="728.65" r="4.489"/>
+    </g>
+    <g id="second-part">
+      <rect id="background-9" data-name="background" class="cls-10" x="500.24" y="589.554" width="101.413" height="41.094"/>
+      <text id="value-1-2" data-name="value-1" class="cls-5" transform="translate(530.75 622.611)"><tspan x="0" y="0">6</tspan></text>
+      <polygon id="downgraded-2" data-name="downgraded" class="cls-9" points="589.493 614.522 579.133 622.411 568.783 614.522 573.902 614.522 573.902 601.701 584.374 601.701 584.374 614.522 589.493 614.522"/>
+      <polygon id="upgraded-2" data-name="upgraded" class="cls-14" points="568.783 605.306 579.142 597.417 589.493 605.306 584.374 605.306 584.374 618.127 573.902 618.127 573.902 605.306 568.783 605.306"/>
+      <circle id="neutral-2" data-name="neutral" cx="581.934" cy="608.501" r="4.489"/>
+    </g>
+    <g id="third-part">
+      <rect id="background-10" data-name="background" class="cls-10" x="600.398" y="469.427" width="101.413" height="41.094"/>
+      <text id="value-1-3" data-name="value-1" class="cls-5" transform="translate(630.908 502.485)"><tspan x="0" y="0">6</tspan></text>
+      <polygon id="downgraded-3" data-name="downgraded" class="cls-9" points="689.651 494.396 679.291 502.285 668.941 494.396 674.06 494.396 674.06 481.575 684.532 481.575 684.532 494.396 689.651 494.396"/>
+      <polygon id="upgraded-3" data-name="upgraded" class="cls-14" points="668.941 485.18 679.301 477.291 689.651 485.18 684.532 485.18 684.532 498.001 674.06 498.001 674.06 485.18 668.941 485.18"/>
+      <circle id="neutral-3" data-name="neutral" cx="682.092" cy="488.375" r="4.489"/>
+    </g>
+  </g>
+  <g id="rcc-04R">
+    <g id="second-part-2" data-name="second-part">
+      <rect id="background-11" data-name="background" class="cls-10" x="924.657" y="689.801" width="101.413" height="41.094"/>
+      <text id="value-1-4" data-name="value-1" class="cls-5" transform="translate(955.168 722.858)"><tspan x="0" y="0">6</tspan></text>
+      <polygon id="downgraded-4" data-name="downgraded" class="cls-9" points="1013.91 714.769 1003.55 722.658 993.2 714.769 998.319 714.769 998.319 701.948 1008.791 701.948 1008.791 714.769 1013.91 714.769"/>
+      <polygon id="upgraded-4" data-name="upgraded" class="cls-14" points="993.2 705.553 1003.56 697.664 1013.91 705.553 1008.791 705.553 1008.791 718.374 998.319 718.374 998.319 705.553 993.2 705.553"/>
+      <circle id="neutral-4" data-name="neutral" cx="1006.351" cy="708.748" r="4.489"/>
+    </g>
+    <g id="third-part-2" data-name="third-part">
+      <rect id="background-12" data-name="background" class="cls-10" x="976.996" y="624.402" width="101.413" height="41.094"/>
+      <text id="value-1-5" data-name="value-1" class="cls-5" transform="translate(1007.507 657.46)"><tspan x="0" y="0">6</tspan></text>
+      <polygon id="downgraded-5" data-name="downgraded" class="cls-9" points="1066.249 649.371 1055.89 657.26 1045.539 649.371 1050.658 649.371 1050.658 636.55 1061.13 636.55 1061.13 649.371 1066.249 649.371"/>
+      <polygon id="upgraded-5" data-name="upgraded" class="cls-14" points="1045.539 640.155 1055.899 632.266 1066.249 640.155 1061.13 640.155 1061.13 652.976 1050.658 652.976 1050.658 640.155 1045.539 640.155"/>
+      <circle id="neutral-5" data-name="neutral" cx="1058.691" cy="643.35" r="4.489"/>
+    </g>
+    <g id="first-part-2" data-name="first-part">
+      <rect id="background-13" data-name="background" class="cls-10" x="867.646" y="755.199" width="101.413" height="41.094"/>
+      <text id="value-1-6" data-name="value-1" class="cls-5" transform="translate(898.157 788.257)"><tspan x="0" y="0">6</tspan></text>
+      <polygon id="downgraded-6" data-name="downgraded" class="cls-9" points="956.899 780.168 946.54 788.057 936.189 780.168 941.308 780.168 941.308 767.347 951.78 767.347 951.78 780.168 956.899 780.168"/>
+      <polygon id="upgraded-6" data-name="upgraded" class="cls-14" points="936.189 770.952 946.549 763.063 956.899 770.952 951.78 770.952 951.78 783.773 941.308 783.773 941.308 770.952 936.189 770.952"/>
+      <circle id="neutral-6" data-name="neutral" cx="949.341" cy="774.147" r="4.489"/>
+    </g>
+  </g>
+  <g id="rcc-15">
+    <g id="first-part-3" data-name="first-part">
+      <rect id="background-14" data-name="background" class="cls-10" x="1174.372" y="468.96" width="101.413" height="41.094"/>
+      <text id="value-1-7" data-name="value-1" class="cls-5" transform="translate(1204.882 502.018)"><tspan x="0" y="0">6</tspan></text>
+      <polygon id="downgraded-7" data-name="downgraded" class="cls-9" points="1263.625 493.929 1253.265 501.818 1242.915 493.929 1248.034 493.929 1248.034 481.108 1258.506 481.108 1258.506 493.929 1263.625 493.929"/>
+      <polygon id="upgraded-7" data-name="upgraded" class="cls-14" points="1242.915 484.713 1253.275 476.824 1263.625 484.713 1258.506 484.713 1258.506 497.534 1248.034 497.534 1248.034 484.713 1242.915 484.713"/>
+      <circle id="neutral-7" data-name="neutral" cx="1256.066" cy="487.908" r="4.489"/>
+    </g>
+    <g id="second-part-3" data-name="second-part">
+      <rect id="background-15" data-name="background" class="cls-10" x="1225.078" y="559.229" width="101.413" height="41.094"/>
+      <text id="value-1-8" data-name="value-1" class="cls-5" transform="translate(1255.589 592.287)"><tspan x="0" y="0">6</tspan></text>
+      <polygon id="downgraded-8" data-name="downgraded" class="cls-9" points="1314.332 584.197 1303.972 592.086 1293.621 584.197 1298.74 584.197 1298.74 571.376 1309.212 571.376 1309.212 584.197 1314.332 584.197"/>
+      <polygon id="upgraded-8" data-name="upgraded" class="cls-14" points="1293.621 574.981 1303.981 567.092 1314.332 574.981 1309.213 574.981 1309.213 587.802 1298.74 587.802 1298.74 574.981 1293.621 574.981"/>
+      <circle id="neutral-8" data-name="neutral" cx="1306.773" cy="578.176" r="4.489"/>
+    </g>
+    <g id="third-part-3" data-name="third-part">
+      <rect id="background-16" data-name="background" class="cls-10" x="1275.725" y="660.256" width="101.413" height="41.094"/>
+      <text id="value-1-9" data-name="value-1" class="cls-5" transform="translate(1306.235 693.314)"><tspan x="0" y="0">6</tspan></text>
+      <polygon id="downgraded-9" data-name="downgraded" class="cls-9" points="1364.978 685.225 1354.618 693.114 1344.268 685.225 1349.387 685.225 1349.387 672.404 1359.859 672.404 1359.859 685.225 1364.978 685.225"/>
+      <polygon id="upgraded-9" data-name="upgraded" class="cls-14" points="1344.268 676.009 1354.627 668.12 1364.978 676.009 1359.859 676.009 1359.859 688.83 1349.387 688.83 1349.387 676.009 1344.268 676.009"/>
+      <circle id="neutral-9" data-name="neutral" cx="1357.419" cy="679.204" r="4.489"/>
+    </g>
+  </g>
+  <g id="rvr-15">
+    <text id="first-part-4" data-name="first-part" class="cls-4" transform="translate(1064.861 562.266)"><tspan x="0" y="0">2000</tspan></text>
+    <text id="second-part-4" data-name="second-part" class="cls-4" transform="translate(1106.77 632.266)"><tspan x="0" y="0">2000</tspan></text>
+    <text id="third-part-4" data-name="third-part" class="cls-4" transform="translate(1148.423 702.265)"><tspan x="0" y="0">2000</tspan></text>
+  </g>
+  <g id="rvr-04R">
+    <text id="third-part-5" data-name="third-part" class="cls-4" transform="translate(920.375 560.648)"><tspan x="0" y="0">2000</tspan></text>
+    <text id="second-part-5" data-name="second-part" class="cls-4" transform="translate(859.747 630.648)"><tspan x="0" y="0">2000</tspan></text>
+    <text id="first-part-5" data-name="first-part" class="cls-4" transform="translate(803.72 697.664)"><tspan x="0" y="0">2000</tspan></text>
+  </g>
+  <g id="rvr-04L">
+    <text id="third-part-6" data-name="third-part" class="cls-4" transform="translate(451.514 491.93)"><tspan x="0" y="0">2000</tspan></text>
+    <text id="second-part-6" data-name="second-part" class="cls-4" transform="translate(377.044 581.93)"><tspan x="0" y="0">2000</tspan></text>
+    <text id="first-part-6" data-name="first-part" class="cls-4" transform="translate(301.598 671.93)"><tspan x="0" y="0">2000</tspan></text>
+  </g>
+  <g id="info-windows">
+    <rect id="top-right-bg" class="cls-11" x="1257.779" y="7.257" width="582.067" height="160.736"/>
+    <rect id="bottom-right-bg" class="cls-11" x="1254.331" y="1055.329" width="585.862" height="222.364"/>
+    <rect id="warnings-bg" class="cls-11" x="6.629" y="1087.877" width="845.108" height="180.524"/>
+    <rect id="top-left-bg" class="cls-11" x="5.199" y="387.029" width="322.965" height="161.797"/>
+  </g>
+  <g id="info-window-text">
+    <text id="value-1-10" data-name="value-1" class="cls-6" transform="translate(13.964 433.429)"><tspan x="0" y="0">TEXT</tspan></text>
+    <text id="value-1-11" data-name="value-1" class="cls-6" transform="translate(1265.522 53.907)"><tspan x="0" y="0">TEXT</tspan></text>
+    <text id="value-1-12" data-name="value-1" class="cls-6" transform="translate(1265.449 1104.026)"><tspan x="0" y="0">TEXT</tspan></text>
+  </g>
+</svg>

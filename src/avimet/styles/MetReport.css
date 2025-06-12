@@ -1,0 +1,275 @@
+
+:root {
+    --metrep-table-title-text: #333333;
+    --metrep-table-background: #77aede;
+    --metrep-table-value-background: #fff;
+    --metrep-table-title-font: "verdana-pro", sans-serif;
+    --current-wx-value-border: 1px solid #b5b5b5;
+    --current-wx-table-border: 1px solid #8b8b8b;
+}
+
+.dark {
+    --metrep-table-title-text: #ccc;
+    --metrep-table-background: #0c2740;
+    --metrep-table-value-background: #000;
+    --current-wx-value-border: 1px solid #1e1e1e;
+    --current-wx-table-border: 1px solid #3d3d3d;
+}
+
+.metrep-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    height: calc(100vh - 146px);
+    color: var(--top-menu-text);
+    overflow: scroll;
+}
+
+.metrep-top {
+    display: flex;
+    gap: 10px;
+}
+
+.metrep-left {
+    flex: 2;
+    border: 1px solid #535353;
+    border-radius: 2px;
+    padding: 2px;
+    margin-left: 2px;
+}
+
+.metrep-right {
+    flex: 1;
+}
+
+.metrep-bottom {
+    width: 100%;
+}
+
+.metrep-table {
+    display: grid;
+    grid-template-columns: 68px 1fr;
+    row-gap: 4px;
+    column-gap: 0px;
+}
+
+.metrep-table-row {
+    display: contents;
+}
+
+.metrep-table-title {
+    display: flex;
+    align-items: center;
+
+    font-family: var(--metrep-table-title-font);
+    font-size: 0.8rem;
+    text-align: left;
+    background-color: var(--metrep-table-background);
+    color: var(--metrep-table-title-text);
+    padding: 6px 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.metrep-table-value {
+    text-align: left;
+    background-color: var(--metrep-table-background);
+    font-family: var(--font-avimet);
+    position: relative;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.metrep-table-value p {
+    background-color: var(--metrep-table-value-background);
+    padding: 1px;
+    margin: 2px;
+    margin-left: 0px;
+    font-size: 1rem;
+    height: calc(100% - 6px);
+    overflow: hidden;
+}
+
+.metrep-double-row-wrapper {
+    grid-column: 1 / -1;
+}
+
+.metrep-table-double-row {
+    display: grid;
+    grid-template-columns: 68px 1fr 8% 62px 1fr;
+    gap: 0px;
+}
+
+.metrep-table-low-wind {
+    display: grid;
+    grid-template-columns: 1fr 2px 62px 1fr;
+    gap: 0px;  
+    height: 80px;
+    padding: 2px;
+    border: 1px outset var(--metrep-table-value-background);
+    border-radius: 4px;
+}
+
+.metrep-table-low-wind-container {
+    text-align: left;
+    background-color: var(--metrep-table-value-background);
+    font-family: var(--font-avimet);
+    position: relative;
+    border: 1px solid #535353;
+}
+
+.low-wind-title {
+    font-size: 0.8rem;
+    font-family: var(--metrep-table-title-font);
+    color: var(--metrep-table-title-text);
+    margin: 4px 4px 0px;
+    padding: 0;
+
+}
+
+.low-wind-table {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+    margin: 4px 4px 0px;
+    font-size: 0.8rem;
+    width: calc(100% - 4px);
+}
+
+.warnings-title {
+    font-size: 0.57rem;
+    padding-left: 1px;
+    border-left: 1px solid #535353;
+    border-top: 1px solid #535353;
+    border-bottom: 1px solid #535353;
+    border-radius: 0;
+}
+
+.warnings-value {
+    border-right: 1px solid #535353;
+    border-top: 1px solid #535353;
+    border-bottom: 1px solid #535353;
+    border-radius: 0;
+    background-color: var(--metrep-table-value-background);
+}
+
+.warnings-value p {
+    font-size: 0.8rem !important;
+    padding-top: 2px;
+    height: calc(100% - 9px);
+    overflow: hidden;
+}
+
+.efhk-taf:nth-of-type(odd) {
+    min-height: 56px;
+    border-left: 1px solid #535353;
+    border-top: 1px solid #535353;
+    border-bottom: 1px solid #535353;
+    border-radius: 0;
+}
+
+.efhk-taf:nth-of-type(even) {
+    min-height: 56px;
+    border-right: 1px solid #535353;
+    border-top: 1px solid #535353;
+    border-bottom: 1px solid #535353;
+    border-radius: 0;
+}
+
+/*  CURRENT WEATHER (RIGHT SECTION) */
+
+.current-wx-table {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    row-gap: 0px;
+    column-gap: 0px;
+    margin-right: 10px;
+}
+
+.current-wx-table-title {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    font-family: var(--font-avimet);
+    font-size: 0.6rem;
+    color: var(--metrep-table-title-text);
+    padding: 0px 4px;
+
+    border: var(--current-wx-table-border);
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+
+}
+
+.current-wx-table-value {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 8px 0px;
+    font-family: var(--font-avimet);
+    border: var(--current-wx-table-border);
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.current-wx-table-value p {
+    background-color: var(--metrep-table-value-background);
+    border: var(--current-wx-value-border);
+    text-align: center;
+    padding: 1px;
+    margin: 6px;
+    font-size: 1rem;
+    width: 100%;
+    height: 20px;
+    overflow: hidden;
+}
+
+.wx-table-multirow p {
+    width: calc(50% - 16px);
+}
+
+.wx-table-multirow h3 {
+    font-size: 0.7rem !important;
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+    font-size: 1rem;
+    overflow: hidden;
+    width: calc(50% - 16px);
+}
+
+.label-hpa {
+    color: #0570bd;
+    position: relative;
+    padding-right: 20px !important;
+}
+
+.label-hpa::after {
+    content: 'hPa';
+    color: var(--metrep-table-title-text);
+    font-size: 0.6rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 2px;
+    background-color: var(--metrep-table-value-background);
+}
+
+.label-c p {
+    position: relative;
+    padding-right: 10px !important;
+}
+
+.label-c p::after {
+    content: '°C';
+    color: var(--metrep-table-title-text);
+    font-size: 0.6rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 2px;
+    background-color: var(--metrep-table-value-background);
+}

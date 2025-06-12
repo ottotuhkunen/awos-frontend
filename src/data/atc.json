@@ -1,0 +1,178 @@
+[
+  {
+      "ad": "EFHK",
+      "suffix": "E",
+      "type": "APP",
+      "service": "Approach control service",
+      "lfunc": "RE",
+      "cs": "HELSINKI RADAR"
+  },{
+      "ad": "EFHK",
+      "suffix": "W",
+      "type": "APP",
+      "service": "Approach control service",
+      "lfunc": "RW",
+      "cs": "HELSINKI RADAR"
+  },{
+      "ad": "EFHK",
+      "suffix": "R",
+      "type": "APP",
+      "service": "Arrival final sequencing",
+      "lfunc": "AE",
+      "cs": "HELSINKI ARRIVAL"
+  },{
+      "ad": "EFHK",
+      "suffix": "A",
+      "type": "APP",
+      "service": "Arrival final sequencing (04R/22R)",
+      "lfunc": "AW",
+      "cs": "HELSINKI ARRIVAL"
+  },{
+      "ad": "EFHK",
+      "suffix": "E",
+      "type": "TWR",
+      "service": "Aerodrome control service",
+      "lfunc": "HKTWE",
+      "cs": "HELSINKI TOWER"
+  },{
+      "ad": "EFHK",
+      "suffix": "W",
+      "type": "TWR",
+      "service": "Aerodrome control service",
+      "lfunc": "HKTWW",
+      "cs": "HELSINKI TOWER"
+  },{
+      "ad": "EFHK",
+      "suffix": "",
+      "type": "GND",
+      "service": "Ground movement control",
+      "lfunc": "HKGND",
+      "cs": "HELSINKI GROUND"
+  },{
+      "ad": "EFHK",
+      "suffix": "",
+      "type": "DEL",
+      "service": "Ground movement control",
+      "lfunc": "HKCLD",
+      "cs": "HELSINKI GROUND"
+  },{
+      "ad": "EFHK",
+      "suffix": "C",
+      "type": "GND",
+      "service": "De-icing coordinator",
+      "lfunc": "HKICE",
+      "cs": "REMOTE DE-ICING SUPERVISOR"
+  },{
+      "ad": "EFHK",
+      "suffix": "D",
+      "type": "GND",
+      "service": "De-icing operator",
+      "lfunc": "ICEOP",
+      "cs": "DEICING OPERATOR"
+  },{
+      "ad": "EFIN",
+      "suffix": "D",
+      "type": "CTR",
+      "service": "Area control service",
+      "lfunc": "D",
+      "cs": "HELSINKI CONTROL"
+  },{
+      "ad": "EFIN",
+      "suffix": "A",
+      "type": "CTR",
+      "service": "Area control service",
+      "lfunc": "A",
+      "cs": "HELSINKI CONTROL"
+  },{
+      "ad": "EFIN",
+      "suffix": "B",
+      "type": "CTR",
+      "service": "Area control service",
+      "lfunc": "B",
+      "cs": "HELSINKI CONTROL"
+  },{
+      "ad": "EFIN",
+      "suffix": "C",
+      "type": "CTR",
+      "service": "Area control service",
+      "lfunc": "C",
+      "cs": "HELSINKI CONTROL"
+  },{
+      "ad": "EFIN",
+      "suffix": "E",
+      "type": "CTR",
+      "service": "Area control service",
+      "lfunc": "E",
+      "cs": "HELSINKI CONTROL"
+  },{
+      "ad": "EFIN",
+      "suffix": "F",
+      "type": "CTR",
+      "service": "Area control service",
+      "lfunc": "F",
+      "cs": "HELSINKI CONTROL"
+  },{
+      "ad": "EFIN",
+      "suffix": "G",
+      "type": "CTR",
+      "service": "Area control service",
+      "lfunc": "G",
+      "cs": "HELSINKI CONTROL"
+  },{
+      "ad": "EFIN",
+      "suffix": "H",
+      "type": "CTR",
+      "service": "Area control service",
+      "lfunc": "H",
+      "cs": "HELSINKI CONTROL"
+  },{
+      "ad": "EFIN",
+      "suffix": "J",
+      "type": "CTR",
+      "service": "Area control service",
+      "lfunc": "J",
+      "cs": "HELSINKI CONTROL"
+  },{
+      "ad": "EFIN",
+      "suffix": "K",
+      "type": "CTR",
+      "service": "Area control service",
+      "lfunc": "K",
+      "cs": "HELSINKI CONTROL"
+  },{
+      "ad": "EFIN",
+      "suffix": "L",
+      "type": "CTR",
+      "service": "Area control service",
+      "lfunc": "L",
+      "cs": "HELSINKI CONTROL"
+  },{
+      "ad": "EFIN",
+      "suffix": "M",
+      "type": "CTR",
+      "service": "Area control service",
+      "lfunc": "M",
+      "cs": "HELSINKI CONTROL"
+  },{
+      "ad": "EFIN",
+      "suffix": "N",
+      "type": "CTR",
+      "service": "Area control service",
+      "lfunc": "N",
+      "cs": "HELSINKI CONTROL"
+  },{
+      "ad": "EFIN",
+      "suffix": "V",
+      "type": "CTR",
+      "service": "Area control service",
+      "lfunc": "V",
+      "cs": "HELSINKI CONTROL"
+  },{
+      "ad": "EFIN",
+      "suffix": "",
+      "type": "CTR",
+      "service": "Area control service",
+      "lfunc": "D",
+      "cs": "HELSINKI CONTROL"
+  }
+]
