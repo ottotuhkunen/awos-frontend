@@ -8,7 +8,7 @@ const config = {
     },
 };
 
-const environment = 'development'; // development or production
+const environment = 'production'; // development or production
 
 export const METARS_URL = `${config[environment].API_BASE_URL}/api/metars`;
 export const LOGIN_URL = `${config[environment].API_BASE_URL}/auth/vatsim`;
