@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.35e0540f.css",
+    "main.js": "/static/js/main.6a039af2.js",
+    "static/media/login-background.png": "/static/media/login-background.285558e8094e2ea348f9.png",
+    "static/media/Verdana.ttf": "/static/media/Verdana.06356c47838279a6fe85.ttf",
+    "static/media/Roboto-Medium.ttf": "/static/media/Roboto-Medium.116fcd4fd987818c5d98.ttf",
+    "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.5dd918926d41224c8142.ttf",
+    "static/media/pattern.png": "/static/media/pattern.234874109417cb164a4e.png",
+    "static/media/RobotoMono-Light.ttf": "/static/media/RobotoMono-Light.bf75ff68d9c9eeec020e.ttf",
+    "static/media/RobotoMono-Regular.ttf": "/static/media/RobotoMono-Regular.154dd521c9b4f99836af.ttf",
+    "static/media/VeraMono.ttf": "/static/media/VeraMono.16fc2e6c12bb25ab34c1.ttf",
+    "static/media/pattern-dark.png": "/static/media/pattern-dark.84dc42809d1334e03f43.png",
+    "static/media/vatsca.svg": "/static/media/vatsca.46d2c4144e7a163339b227774ead876c.svg",
+    "index.html": "/index.html",
+    "main.35e0540f.css.map": "/static/css/main.35e0540f.css.map",
+    "main.6a039af2.js.map": "/static/js/main.6a039af2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35e0540f.css",
+    "static/js/main.6a039af2.js"
+  ]
+}
