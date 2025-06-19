@@ -154,9 +154,9 @@ const AvimetLayout = ({metarTaf}) => {
   const renderContent = () => {
     switch (selectedMenuIndex) {
       case 0: return <MainPage efhkData={efhkData} atisDep={atisDep} atisArr={atisArr} randomizers={metarTaf}/>;
-      case 1: return <RunwayPage rwy1="04R" rwy2="22L" />;
-      case 2: return <RunwayPage rwy1="15" rwy2="33" />;
-      case 3: return <RunwayPage rwy1="04L" rwy2="22R" />;
+      case 1: return <RunwayPage rwys={['04R', '22L']} efhkData={efhkData}/>;
+      case 2: return <RunwayPage rwys={['15', '33']} efhkData={efhkData}/>;
+      case 3: return <RunwayPage rwys={['04L', '22R']} efhkData={efhkData}/>;
       case 4: return <SnowtamPage efhkData={efhkData}/>;
       case 5: return <MetReportPage metarTaf={metarTaf} efhkData={efhkData}/>;
       case 6: return <SetupPage atisDep={atisDep} atisArr={atisArr} efhkData={efhkData}/>;

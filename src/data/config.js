@@ -4,7 +4,7 @@ const config = {
       API_BASE_URL: 'http://localhost:5000',
     },
     production: {
-      API_BASE_URL: 'https://awos-backend.lusep.fi',
+      API_BASE_URL: 'https://wx-backend.lusep.fi',
     },
 };
 

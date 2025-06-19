@@ -899,54 +899,36 @@ const getActiveRunways = (atisDep, atisArr) => {
     '22R': false,
   };
 
-  const markRunways = (preset, type) => {
+  const allRunways = Object.keys(active);
+
+  const markRunways = (type) => {
+    const preset = (type === 'departure' ? atisDep?.preset : atisArr?.preset)?.toUpperCase();
     if (!preset) return;
 
-    const upperPreset = preset.toUpperCase();
-
-    if (type === 'departure' && upperPreset.startsWith('DEP')) {
-      const matches = upperPreset.match(/DEP\s+([0-9R LAND]+)/);
-      if (matches) {
-        const runways = matches[1]
-          .replace(/AND/gi, '')
-          .split(/\s+/)
-          .map(r => r.trim());
-        runways.forEach(rw => {
-          if (active[rw]) active[rw] = true;
-        });
+    allRunways.forEach(rwy => {
+      if (type === 'departure' && preset.startsWith('DEP') && preset.includes(rwy)) {
+        active[rwy] = true;
       }
-    }
 
-    if (type === 'arrival' && upperPreset.startsWith('ARR')) {
-      const matches = upperPreset.match(/ARR\s+([0-9R LAND]+)/);
-      if (matches) {
-        const runways = matches[1]
-          .replace(/AND/gi, '')
-          .split(/\s+/)
-          .map(r => r.trim());
-        runways.forEach(rw => {
-          if (active[rw]) active[rw] = true;
-        });
-      }
-    }
+      if (type === 'arrival') {
+        if (preset.startsWith('ARR') && preset.includes(rwy)) {
+          active[rwy] = true;
+        }
 
-    // SOIR logic
-    if (type === 'arrival' && upperPreset.startsWith('SOIR')) {
-      if (upperPreset.includes('04')) {
-        active['04L'] = true;
-        active['04R'] = true;
-      } else if (upperPreset.includes('22')) {
-        active['22L'] = true;
-        active['22R'] = true;
+        if (preset.startsWith('SOIR')) {
+          if ((preset.includes('04') && (rwy === '04L' || rwy === '04R')) ||
+              (preset.includes('22') && (rwy === '22L' || rwy === '22R'))) {
+            active[rwy] = true;
+          }
+        }
       }
-    }
+    });
   };
 
-  markRunways(atisDep?.preset, 'departure');
-  markRunways(atisArr?.preset, 'arrival');
+  markRunways('departure');
+  markRunways('arrival');
 
   return active;
 };
-
 
 export default MainPage;

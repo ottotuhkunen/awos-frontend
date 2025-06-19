@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="layer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 632.772 213.287">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 42.839px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        font-family: ArialMT, Arial;
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        font-size: 28.56px;
+      }
+
+      .cls-3 {
+        font-size: 32.129px;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="RunwayWidthPart">
+    <path id="snowBanksBackground2" class="cls-4" d="M147.974,29.825H16.065C7.14,29.825,0,36.965,0,45.89v50.872h164.039v-50.872c0-8.746-7.14-16.065-16.065-16.065Z"/>
+    <path id="snowBanksBackground1" class="cls-4" d="M616.707,29.825h-131.731c-8.925,0-16.065,7.14-16.065,16.065v50.872h163.86v-50.872c0-8.746-7.14-16.065-16.065-16.065Z"/>
+    <rect y="96.94" width="632.772" height="71.399"/>
+    <text id="rwyNumber3" class="cls-1" transform="translate(277.97 78.721)"><tspan x="0" y="0">04R</tspan></text>
+    <text id="width2" class="cls-3" transform="translate(279.769 142.707)"><tspan x="0" y="0">60 m</tspan></text>
+    <text id="snbanks_left1" data-name="snbanks left1" class="cls-3" transform="translate(129.576 142.707)"><tspan x="0" y="0">25 m</tspan></text>
+    <text class="cls-2" transform="translate(74.081 59.726)"><tspan x="0" y="0">5</tspan></text>
+    <text class="cls-2" transform="translate(63.014 84.716)"><tspan x="0" y="0">cm</tspan></text>
+    <text class="cls-2" transform="translate(542.806 59.726)"><tspan x="0" y="0">5</tspan></text>
+    <text class="cls-2" transform="translate(531.739 84.716)"><tspan x="0" y="0">cm</tspan></text>
+    <text id="snbanks_right1" data-name="snbanks right1" class="cls-3" transform="translate(432.794 142.707)"><tspan x="0" y="0">25 m</tspan></text>
+  </g>
+</svg>

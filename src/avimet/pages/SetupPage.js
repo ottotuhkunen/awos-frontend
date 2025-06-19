@@ -5,6 +5,7 @@ import '../styles/MetReport.css';
 import '../styles/SetupPage.css';
 import axios from 'axios';
 import { URL_START } from '../../data/config';
+import AglPage from './Agl';
 
 const SetupPage = ({atisDep, atisArr, efhkData}) => {
   const [selectedTab, setSelectedTab] = useState('RUNWAYS');
@@ -19,6 +20,8 @@ const SetupPage = ({atisDep, atisArr, efhkData}) => {
         return <RUNWAYS efhkData={efhkData} atisDep={atisDep} atisArr={atisArr}/>;
       case 'ATCUNITS':
         return <ATCUNITS controllers={controllers} loading={loading}/>;
+      case 'AGL':
+        return <AglPage controllers={controllers} loading={loading}/>;
       case 'MESSAGES':
         return <MESSAGES cid={user.id} userIsAtc={userIsAtc} efhkData={efhkData}/>;
       case 'USER':
@@ -78,6 +81,12 @@ const SetupPage = ({atisDep, atisArr, efhkData}) => {
 
     fetchControllers();
   }, []);
+
+  /*
+  <button onClick={() => setSelectedTab('AGL')} className={selectedTab === 'AGL' ? 'page-button selected' : 'page-button'}>
+    AGL
+  </button>
+  */
 
   return (
     <div className='setup-div'>

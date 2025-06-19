@@ -69,7 +69,7 @@
     margin-left: 4px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 700px) {
     .rwy-report-columns { flex-direction: column; }
     .rwy-report-column-left { margin: 0; max-width: 100%; }
     .rwy-report-column-right { margin: 0; }
@@ -86,7 +86,7 @@
 }
 
 .rwysvg-container {
-    max-width: 260px;
+    max-width: 220px;
     margin: 0 auto;
     text-align: center;
 }
@@ -110,6 +110,25 @@
     font-weight: bold;
     fill: #fff;
     font-size: 80pt;
+}
+
+.rwysvg-fill-white {
+    fill: #fff;
+}
+
+.rwysvg-widthText-white {
+    fill: #fff;
+    font-size: 24pt;
+}
+
+.rwysvg-widthText-black {
+    fill: #000;
+    font-size: 24pt;
+}
+
+.rwysvg-widthText-rwy {
+    fill: var(--top-menu-text);
+    font-size: 38pt;
 }
 
 .rwysvg-container p {

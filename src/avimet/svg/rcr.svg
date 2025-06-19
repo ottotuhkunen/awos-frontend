@@ -1,48 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="layer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 632.772 381.37">
+<svg id="layer" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 632.772 381.37">
+  <!-- Generator: Adobe Illustrator 29.5.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 137)  -->
   <defs>
     <style>
-      .cls-1 {
+      .st0 {
         fill: none;
         stroke: #f5a623;
         stroke-miterlimit: 10;
         stroke-width: 5px;
       }
 
-      .cls-2, .cls-3 {
+      .st1 {
+        font-size: 42.8393px;
+      }
+
+      .st1, .st2, .st3 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st1, .st2, .st3, .st4, .st5 {
+        isolation: isolate;
+      }
+
+      .st2 {
+        font-size: 28.5595px;
+      }
+
+      .st3 {
+        font-size: 32.1295px;
+      }
+
+      .st3, .st5, .st6 {
         fill: #fff;
       }
 
-      .cls-3 {
+      .st5 {
         font-family: Verdana, Verdana;
         font-size: 100px;
       }
 
-      .cls-4 {
+      .st7 {
         fill: #f5a623;
       }
     </style>
   </defs>
   <rect y="5.095" width="632.772" height="372.812"/>
-  <line class="cls-1" y1="5.095" x2="632.772" y2="5.095"/>
-  <line class="cls-1" y1="377.907" x2="632.772" y2="377.907"/>
-  <circle class="cls-4" cx="27.658" cy="45.715" r="12.069"/>
-  <circle class="cls-4" cx="27.658" cy="94.31" r="12.069"/>
-  <circle class="cls-4" cx="27.658" cy="142.906" r="12.069"/>
-  <circle class="cls-4" cx="27.658" cy="191.501" r="12.069"/>
-  <circle class="cls-4" cx="27.658" cy="240.097" r="12.069"/>
-  <circle class="cls-4" cx="27.658" cy="288.692" r="12.069"/>
-  <circle class="cls-4" cx="27.658" cy="337.288" r="12.069"/>
-  <circle class="cls-4" cx="603.71" cy="47.212" r="12.069"/>
-  <circle class="cls-4" cx="603.71" cy="95.808" r="12.069"/>
-  <circle class="cls-4" cx="603.71" cy="144.403" r="12.069"/>
-  <circle class="cls-4" cx="603.71" cy="192.999" r="12.069"/>
-  <circle class="cls-4" cx="603.71" cy="241.594" r="12.069"/>
-  <circle class="cls-4" cx="603.71" cy="290.19" r="12.069"/>
-  <circle class="cls-4" cx="603.71" cy="338.785" r="12.069"/>
-  <rect class="cls-2" x="306.996" y="28.735" width="18.78" height="53.186"/>
-  <rect class="cls-2" x="306.996" y="120.515" width="18.78" height="53.186"/>
-  <rect class="cls-2" x="306.996" y="212.296" width="18.78" height="53.186"/>
-  <rect class="cls-2" x="306.996" y="304.076" width="18.78" height="53.186"/>
-  <text class="cls-3" transform="translate(205.215 229.526)"><tspan x="0" y="0">5</tspan></text>
+  <line class="st0" y1="5.095" x2="632.772" y2="5.095"/>
+  <line class="st0" y1="377.907" x2="632.772" y2="377.907"/>
+  <circle class="st7" cx="27.658" cy="45.715" r="12.069"/>
+  <circle class="st7" cx="27.658" cy="94.31" r="12.069"/>
+  <circle class="st7" cx="27.658" cy="142.906" r="12.069"/>
+  <circle class="st7" cx="27.658" cy="191.501" r="12.069"/>
+  <circle class="st7" cx="27.658" cy="240.097" r="12.069"/>
+  <circle class="st7" cx="27.658" cy="288.692" r="12.069"/>
+  <circle class="st7" cx="27.658" cy="337.288" r="12.069"/>
+  <circle class="st7" cx="603.71" cy="47.212" r="12.069"/>
+  <circle class="st7" cx="603.71" cy="95.808" r="12.069"/>
+  <circle class="st7" cx="603.71" cy="144.403" r="12.069"/>
+  <circle class="st7" cx="603.71" cy="192.999" r="12.069"/>
+  <circle class="st7" cx="603.71" cy="241.594" r="12.069"/>
+  <circle class="st7" cx="603.71" cy="290.19" r="12.069"/>
+  <circle class="st7" cx="603.71" cy="338.785" r="12.069"/>
+  <rect class="st6" x="306.996" y="28.735" width="18.78" height="53.186"/>
+  <rect class="st6" x="306.996" y="120.515" width="18.78" height="53.186"/>
+  <rect class="st6" x="306.996" y="212.296" width="18.78" height="53.186"/>
+  <rect class="st6" x="306.996" y="304.076" width="18.78" height="53.186"/>
+  <g id="values" class="st4">
+    <text class="st5" transform="translate(205.215 229.526)"><tspan x="0" y="0">5</tspan></text>
+    <polygon id="trendMark" class="st6" points="375.2953 163.994 433.3052 163.994 404.7527 222.0039 375.2953 163.994"/>
+    <polygon id="closedMark" class="st6" points="339.889 191.496 434.949 286.556 410.749 310.766 315.689 215.706 220.619 310.766 196.419 286.556 291.479 191.496 196.419 96.436 220.619 72.236 315.689 167.296 410.749 72.236 434.949 96.436 339.889 191.496"/>
+  </g>
+  <g id="RunwayWidthPart">
+    <path id="snowBanksBackground2" class="st6" d="M147.974,460.0289H16.0647c-8.9249,0-16.0647,7.1399-16.0647,16.0647v50.8717h164.0388v-50.8717c0-8.7464-7.1399-16.0647-16.0647-16.0647Z"/>
+    <path id="snowBanksBackground1" class="st6" d="M616.7072,460.0289h-131.7308c-8.9249,0-16.0647,7.1399-16.0647,16.0647v50.8717h163.8603v-50.8717c0-8.7464-7.1399-16.0647-16.0647-16.0647Z"/>
+    <rect y="527.1437" width="632.772" height="71.3988"/>
+    <text id="rwyNumber3" class="st1" transform="translate(277.9697 508.9248)"><tspan x="0" y="0">04R</tspan></text>
+    <text id="width2" class="st3" transform="translate(279.769 572.9102)"><tspan x="0" y="0">60 m</tspan></text>
+    <text id="snbanks_left1" class="st3" transform="translate(129.5762 572.9102)"><tspan x="0" y="0">25 m</tspan></text>
+    <text class="st2" transform="translate(74.0806 489.9297)"><tspan x="0" y="0">5</tspan></text>
+    <text class="st2" transform="translate(63.0142 514.9199)"><tspan x="0" y="0">cm</tspan></text>
+    <text class="st2" transform="translate(542.8057 489.9297)"><tspan x="0" y="0">5</tspan></text>
+    <text class="st2" transform="translate(531.7393 514.9199)"><tspan x="0" y="0">cm</tspan></text>
+    <text id="snbanks_right1" class="st3" transform="translate(432.7939 572.9102)"><tspan x="0" y="0">25 m</tspan></text>
+  </g>
+  <rect id="snowBanks1" class="st6" x="52.9211" y="7.621" width="111.1177" height="367.563"/>
+  <rect id="snowBanks2" class="st6" x="468.9117" y="7.621" width="111.1177" height="367.563"/>
 </svg>
